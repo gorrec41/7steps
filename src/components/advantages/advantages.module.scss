@@ -1,0 +1,48 @@
+.advantages {
+  position: relative;
+  padding: 11em;
+  height: 50vh;
+
+  z-index: 1;
+  overflow: hidden;
+  &Videowrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+
+    &Vid{
+      width: 100%;
+    }
+  }
+
+  &Title{
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+  &List{
+    padding-left:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(46, 61, 43, .4);
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    &Item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      color: #ffffff;
+      padding: 1rem;
+      font-size: 2em;
+    }
+  }
+}
+

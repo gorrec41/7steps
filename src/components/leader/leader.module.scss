@@ -1,0 +1,55 @@
+.lieader{
+  padding: 11em 0;
+  width: 100vw;
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  &Content{
+   display: grid;
+    grid-template-areas:
+      "images text"
+      "images  list";
+       &Wraper{
+         grid-area: images;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 25vw;
+      height: 75vh;
+      border-radius: 40px;
+      border: 3px solid #ffffff;
+         &Img{
+        width: 97%;
+        height: 98%;
+        border-radius: 40px;
+        -webkit-box-shadow: 0px -3px  8px 27px rgba(244, 245, 246, 0.2);
+        -moz-box-shadow: 0px -3px 8px 27px rgba(244, 245, 246, 0.2);
+        box-shadow: 0px -3px 8px 27px rgba(244, 245, 246, 0.2);
+      }
+    }
+    &Text{
+      grid-area: text;
+      font-size: 4rem;
+    }
+    &List{
+      padding:2em 2em;
+      background: rgba(46, 61, 43, .7);
+      border-radius: 30px;
+      border: 3px solid #ffffff;
+      -webkit-box-shadow: 0px -3px  8px 18px rgba(244, 245, 246, 0.2);
+      -moz-box-shadow: 0px -3px 8px 18px rgba(244, 245, 246, 0.2);
+      box-shadow: 0px -3px 8px 18px rgba(244, 245, 246, 0.2);
+      grid-area: list;
+      &Item{
+        font-size: 3rem;
+        margin-bottom: 1em;
+        &:last-child
+        {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
