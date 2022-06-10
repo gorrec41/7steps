@@ -4,6 +4,7 @@ import Description from './components/description/description';
 import Lieader from './components/leader/leader';
 import Advantages from './components/advantages/advantages'
 import './style/reset.scss'
+import Training from './components/training/Training';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
         <Description/>
         <Lieader/>
         <Advantages/>
+        <Training/>
     </div>
   );
 }
