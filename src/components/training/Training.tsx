@@ -1,4 +1,6 @@
 import st from './Training.module.scss'
+import Trainingcont from './trainingcontent/Trainingcont';
+import Button from '../button/button';
 
 
 function Training () {
@@ -9,9 +11,12 @@ function Training () {
                 КАК ПРОХОДИТ ОБУЧЕНИЕ
             </h2>
             <div className='container'>
-
-
+                <Trainingcont/>
             </div>
+            <div className={st.trainingBtn}>
+                <Button/>
+            </div>
+
         </section>
     )
 }
