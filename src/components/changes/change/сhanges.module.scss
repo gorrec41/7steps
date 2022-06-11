@@ -1,0 +1,25 @@
+.change{
+  margin: auto;
+  padding-left: 10rem;
+  border: 3px solid #ffffff;
+  border-radius: 6em;
+  background: rgba(53, 61, 41, 0.41);
+  width: 70vw;
+  height: 70vh;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  overflow: hidden;
+  color: #ffffff;
+
+  &Item{
+    font-size:2rem ;
+    margin-bottom: 1rem;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}

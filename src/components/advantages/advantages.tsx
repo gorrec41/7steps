@@ -26,7 +26,7 @@ function Advantages() {
                     <source src={vide} type="video/mp4" />
                 </video>
             </div>
-            <h2 className={st.advantagesTitle}>НАШИ ПРЕИМУЩЕСТВА</h2>
+            <h2 className={st.advantagesTitle}>преимущества курса</h2>
             <div className='container'>
                 <ul className={st.advantagesList}>
                     {texList}

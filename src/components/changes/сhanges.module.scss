@@ -1,8 +1,30 @@
-.header{
+.changes{
+  position: relative;
   width: 100vw;
   height: 100vh;
-  //background-image: url("");
+  padding: 100px 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+  &Videowrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .4;
+
+    &Vid{
+      width: 100%;
+    }
+  }
+  &Title{
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+  }
 }

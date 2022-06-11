@@ -4,9 +4,7 @@ import arrowleft from './arrLeft.svg'
 import arrowright from './arrRight.svg'
 import st from './descriptioncont.module.scss'
 
-type af={
-    activeIndex:number
-}
+
 
 function Descriptioncont() {
 
@@ -20,8 +18,6 @@ function Descriptioncont() {
         ]
 
     const [count, setCount] = useState(0);
-
-
 
        useEffect(() => {
 
