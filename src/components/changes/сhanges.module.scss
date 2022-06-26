@@ -6,7 +6,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 1;
   overflow: hidden;
   &Videowrap{
     position: absolute;
@@ -16,7 +15,6 @@
     right: 0;
     z-index: -1;
     opacity: .4;
-
     &Vid{
       width: 100%;
     }

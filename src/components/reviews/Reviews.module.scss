@@ -1,0 +1,34 @@
+.reviews{
+  position: relative;
+  padding: 100px 0;
+  width: 100%;
+  height: 130vh;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  &:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(4, 10, 10, .5);
+    z-index: -1;
+  }
+  &Title{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+  }
+  &Wrap{
+    &Up{
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+

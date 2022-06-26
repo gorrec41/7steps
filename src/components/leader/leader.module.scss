@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   color: #ffffff;
   &Content{
+    margin-bottom: 3rem;
    display: grid;
     grid-template-areas:
       "images text"
@@ -32,9 +33,10 @@
     &Text{
       grid-area: text;
       font-size: 4rem;
+      font-weight: normal;
     }
     &List{
-      padding:2em 2em;
+      padding:5rem 1rem 0 5rem;
       background: rgba(46, 61, 43, .7);
       border-radius: 30px;
       border: 3px solid #ffffff;
@@ -43,13 +45,18 @@
       box-shadow: 0px -3px 8px 18px rgba(244, 245, 246, 0.2);
       grid-area: list;
       &Item{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 1em;
+        font-weight: normal;
         &:last-child
         {
           margin-bottom: 0;
         }
       }
     }
+  }
+  &Btn{
+    display: flex;
+    justify-content: center;
   }
 }

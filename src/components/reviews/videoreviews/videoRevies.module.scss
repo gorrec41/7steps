@@ -1,0 +1,17 @@
+.videoReviews{
+  margin: 0 auto;
+  width: 1200px;
+
+  &List{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    &Item{
+      width: 300px;
+      height: 200px;
+    }
+  }
+}
+

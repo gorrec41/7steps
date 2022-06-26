@@ -6,7 +6,7 @@ import vide from '../video/3192378675_out1.mp4'
 import {HomeSvgSelector} from '../selectorsvg/Selector'
 function Advantages() {
     const listItem=[
-        {id:v1(),title:'Работа с чакрами и изменения вы почуйствуете уже на первом уроке',chakr:'svg'},
+        {id:v1(),title:'Работу с чакрами и изменения вы почувствуете уже на первом уроке',chakr:'svg'},
         {id:v1(),title:'Каждую чакру прокачиваем индивидуально на протяжении одной недели',chakr:'svg1'},
         {id:v1(),title:'Работаем не только на энергетическом, но и на психологическом уровне',chakr:'svg2' },
     ]

@@ -1,6 +1,7 @@
 import st from './leader.module.scss'
 import imger from './DSC04646.jpg'
 import {v1} from 'uuid'
+import Button from '../button/button';
 
 function Lieader() {
     const listItem=[
@@ -31,6 +32,10 @@ function Lieader() {
                         {texList}
                     </ul>
                 </div>
+                <div className={st.lieaderBtn}>
+                    <Button/>
+                </div>
+
             </div>
         </section>
     )

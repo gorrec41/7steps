@@ -1,7 +1,7 @@
 .descriptioncont{
   display: block;
   margin: auto;
-  border-radius: 6em;
+  border-radius: 6rem;
   background: rgba(53, 61, 41, 0.41);
   width: 70vw;
   height: 70vh;
@@ -11,7 +11,7 @@
   align-items: center;
   overflow: hidden;
   color: #ffffff;
-  font-size: 1em;
+  font-size: 1rem;
 
   &Active{
     position: absolute;
@@ -19,7 +19,8 @@
     left: 51%;
     transform: translateX(-50%);
     transition: all 0.7s;
-   font-size: 2.5em;
+   font-size: 2.2rem;
+    font-weight: 400;
   }
   &Prev{
     position: absolute;

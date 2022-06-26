@@ -17,6 +17,8 @@ function Descriptioncont() {
         {id:v1(),title: 'Пройдя этот курс, вы поставите своё самосовершенствование на "автоматизм" и забудете о прочих практиках.'},
         ]
 
+
+
     const [count, setCount] = useState(0);
 
        useEffect(() => {
@@ -34,8 +36,10 @@ function Descriptioncont() {
             <p className={st.descriptioncontActive}
                key={desc[count].id}>
                 {desc[count].title}
+
             </p>
-            <button className={st.descriptioncontNext} onClick={() => setCount(conMax)}>
+
+            <button className={st.descriptioncontNext} onClick={(() => setCount(conMax))}>
                 < img src={arrowright} className={st.PrevImg}/>
             </button>
         </div>
