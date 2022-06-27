@@ -43,7 +43,11 @@ function Rates() {
                 Выберите удобный формат обучения
             </h2>
             <div className='container'>
-
+                    <div className={st.wraprates} id='rate'>
+                        <Rate/>
+                        <Rate/>
+                        <Rate/>
+                    </div>
             </div>
         </section>
     )}

@@ -14,7 +14,7 @@ function Training () {
                 <Trainingcont/>
             </div>
             <div className={st.trainingBtn}>
-                <Button/>
+                <Button title="Записаться" linkbtn="#!"/>
             </div>
 
         </section>

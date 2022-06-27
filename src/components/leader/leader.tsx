@@ -33,7 +33,7 @@ function Lieader() {
                     </ul>
                 </div>
                 <div className={st.lieaderBtn}>
-                    <Button/>
+                    <Button title="Записаться" linkbtn='#rate'/>
                 </div>
 
             </div>

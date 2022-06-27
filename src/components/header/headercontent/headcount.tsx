@@ -9,7 +9,7 @@ function Headcount() {
                 <h1 className={style.headcountWrapTitle}>7 ШАГОВ К ПРОБУЖДЕНИЮ</h1>
                 <p className={style.headcountWrapArtical}>Любое состояние чакр можно улучшить!
                     Ты тоже можешь это сделать.</p>
-                <Button/>
+                <Button title="Записаться" linkbtn="#!"/>
             </div>
 
             <img className={style.headcountImg} src={img} alt="преподаватель"/>
