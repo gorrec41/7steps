@@ -20,7 +20,7 @@ function Advantages() {
         )
     })
     return(
-        <section className={st.advantages}>
+        <section className={st.advantages} id={'advans'}>
             <div className={st.advantagesVideowrap}>
                 <video className={st.advantagesVideowrapVid} id="background-video" loop autoPlay muted>
                     <source src={vide} type="video/mp4" />

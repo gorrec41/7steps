@@ -21,7 +21,7 @@ function Lieader() {
 
 
     return (
-        <section className={st.lieader}>
+        <section className={st.lieader} id='liader'>
             <div className='container'>
                 <div className={st.lieaderContent}>
                     <div className={st.lieaderContentWraper}>

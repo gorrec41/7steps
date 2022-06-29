@@ -1,6 +1,6 @@
 
 .headcount{
-  padding-bottom: 70px;
+
   position: relative;
   max-height: 55rem;
   height: auto;
@@ -11,17 +11,16 @@
   &Wrap{
     margin-right: 3rem;
     &Title{
-      font-weight: bold;
+      font-weight: 300;
       margin-bottom: 2rem;
       font-size:5rem;
       color: #fff;
-      font-family: 'Cormorant', serif;
+
     }
     &Artical{
       margin-bottom: 2rem;
       font-size:2.2rem;
       color: #fff;
-      font-family: 'Cormorant', serif;
     }
   }
   &Img{

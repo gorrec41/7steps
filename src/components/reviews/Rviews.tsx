@@ -12,7 +12,7 @@ const paragr = {
 
 function Rviews() {
     return (
-        <section className={st.reviews}>
+        <section className={st.reviews} id='reviews'>
             <div className='container'>
                 <div className={st.reviewsWrap}>
 

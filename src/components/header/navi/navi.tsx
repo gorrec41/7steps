@@ -6,16 +6,23 @@ import {v1} from 'uuid'
 function Navi() {
 
     const nav=[
-        {title: 'ЦЕНТР РАЗВИТИЯ “NEO”'},
-        {title: 'НАСТАВНИК'},
-        {title: 'КАК ПРОХОДИТ ОБУЧЕНИЕ'},
-        {title: 'ОТЗЫВЫ'},
-        {title: 'НАШИ ПРЕИМУЩЕСТВА'},
-        {title: 'КОНТАКТЫ'}]
-    const listItem=nav.map((m:{title:string})=>{
+        {title: 'ЦЕНТР РАЗВИТИЯ “NEO”',link:'/'},
+        {title: 'НАСТАВНИК',link:'#liader'},
+        {title: 'ПРЕИМУЩЕСТВА КУРСА',link:'#advans'},
+        {title: 'КАК ПРОХОДИТ ОБУЧЕНИЕ',link:'#training'},
+        {title: 'ОТЗЫВЫ',link:'#reviews'},
+        {title: 'КОНТАКТЫ',link:'#footer'}]
+
+    type navyType={
+        title:string,
+        link:string
+    }
+    const listItem=nav.map((m:navyType)=>{
 
         return(
-            <li key={v1()} className={st.nav_item}>{m.title}</li>
+            <li key={v1()} className={st.nav_item}>
+                <a className={st.nav_itemLink} href={m.link}>{m.title}</a>
+                </li>
             )
 
     })

@@ -1,13 +1,17 @@
 .nav {
-padding: 1em 0;
+  padding: 1em 0;
+  top: 0;
+  left:50%;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  transform: translateX(-50%);
 }
 
 .nav_list{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  font-size: 20px;
-  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -16,5 +20,17 @@ padding: 1em 0;
   cursor: pointer;
   &:last-child{
     margin-right: 0;
+  }
+
+  &Link{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+    &:hover{
+      opacity: .8;
+      text-decoration: underline;
+      transition: .5s;
+    }
   }
 }

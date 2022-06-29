@@ -8,6 +8,8 @@ import Сhanges from './components/changes/changes';
 import Rviews from './components/reviews/Rviews';
 import './style/reset.scss'
 import Rates from './components/rates/Rates';
+import Article from './components/article/Article';
+import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,8 @@ function App() {
         <Сhanges/>
         <Rviews/>
         <Rates/>
-
+        <Article/>
+        <Footer/>
     </div>
   );
 }
